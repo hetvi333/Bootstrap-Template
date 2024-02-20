@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--bootstrap links  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- css links -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="custom.css">
+
+</head>
+
+<body>
+
+    <!-- navbar section -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand mx-2 mx-sm-5 " href="index.html">
+                <i class="fa-solid fa-store me-2"></i>NFT Marketplace
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse me-5" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a aria-current="page" href="index.html">Home</a>
+                    <a href="marketplace.html">Marketplace</a>
+                    <a href="ranking.html">Ranking</a>
+                    <a href="connect-wallet.html">Connect a wallet</a>
+                </div>
+
+                <a href="signup.html" class="btn text-white fw-bold"><i class="fa-regular fa-user me-2 "></i>Sign Up</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+
+    <section class="hero m-3 m-sm-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12 mx-auto">
+                    <div>
+                        <h1 class="display-3 text-white fw-bold">Discover digital art & Collect NFTs</h1>
+                        <p class="fs-4 text-white">NFT marketplace UI created with Anima for Figma. Collect, buy and
+                            sell art from more than 20k
+                            NFT artists.</p>
+
+                        <a href="#" class="text-decoration-none"><button
+                                class="border-0 text-white form-control-lg my-3 d-none d-md-block"><i
+                                    class="fa-solid fa-rocket me-2"></i>Get
+                                Started</button></a>
+                    </div>
+                    <div class="row d-none d-md-flex">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                            <div class="text text-white fw-bold fs-5">
+                                240K+<span class="fw-normal fs-5 d-block">total sales</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                            <div class="text text-white fw-bold fs-5">
+                                100K+<span class="fw-normal fs-5 d-block">auctions</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                            <div class="text text-white fw-bold fs-5">
+                                240K+<span class="fw-normal fs-5 d-block">Artists</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 m-auto mt-3">
+                    <div class="card mx-auto">
+                        <img src="images/Image Placeholder.png" class="card-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-white fw-bold">Space Walking</h5>
+                            <p class="text-white"><img src="images/Avatar.png" class="me-2">Animakid</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center d-block d-md-none">
+                    <a href=""><button class="border-0 text-white form-control-lg  my-3 text-center w-100"><i
+                                class="fa-solid fa-rocket me-2"></i>Get
+                            Started</button></a>
+                </div>
+
+                <div class="row d-flex d-md-none mb-3">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                        <div class="text text-white fw-bold fs-6">
+                            240K+<span class="fw-normal fs-6 d-block">total sales</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                        <div class="text text-white fw-bold fs-" 6>
+                            100K+<span class="fw-normal fs-6 d-block">auctions</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                        <div class="text text-white fw-bold fs-6">
+                            240K+<span class="fw-normal fs-6 d-block">Artists</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+    <!-- collection section -->
+
+    <section class="collection m-4 m-sm-5">
+        <div class="trending">
+            <div>
+                <h1 class="fs-1 text-white fw-bold lh-sm">Trending Collection</h1>
+                <h5 class=" text-white lh-base">Checkout our weekly updated trending collection.</h5>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <img src="images/Primary Photo Placeholder.png" class="w-100">
+
+                    <div class="row my-3">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-4">
+                            <img src="images/Secondary Photo Placeholder3.png" class="w-100">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-4">
+                            <img src="images/Secondary Photo Placeholder.png" class="w-100">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-4">
+                            <div
+                                class="text-col d-flex align-items-lg-center justify-content-center align-items-md-center align-items-sm-center align-items-center  w-100 h-100 fw-bold text-white">
+                                2500+</div>
+                        </div>
+                    </div>
+
+                    <div class="text text-white">
+                        <h6 class="fs-4 fw-bold">DSGN Animals</h6>
+                        <p class="fs-5"><img src="images/Avatar2.png" alt="" class="me-2">MrFox</p>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-lg-inline d-md-inline d-sm-none d-none">
+                    <img src="images/Primary Photo Placeholder (1).png" class="w-100">
+
+                    <div class="row my-3">
+                        <div class="col-lg-4 col-md-4">
+                            <img src="images/Secondary Photo Placeholder4.png" class="w-100">
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <img src="images/Secondary Photo Placeholder (1).png" class="w-100">
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div
+                                class="text-col d-flex align-items-lg-center align-items-md-center align-items-sm-center justify-content-center w-100 h-100 fw-bold text-white">
+                                2500+</div>
+                        </div>
+                    </div>
+
+                    <div class="text text-white">
+                        <h6 class="fs-4 fw-bold">Magic Mushrooms</h6>
+                        <p class="fs-5"><img src="images/Asset 12 2.png" alt="" class="me-2">Shroomie</p>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-lg-inline d-md-none d-sm-none d-none">
+                    <img src="images/Primary Photo Placeholder (2).png" class="w-100">
+
+                    <div class="row my-3">
+                        <div class="col-lg-4 col-md-4">
+                            <img src="images/Secondary Photo Placeholder.png" class="w-100">
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <img src="images/Secondary Photo Placeholder.png" class="w-100">
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div
+                                class="text-col d-flex align-items-lg-center align-items-md-center align-items-sm-center justify-content-center w-100 h-100 fw-bold text-white">
+                                2500+</div>
+                        </div>
+                    </div>
+
+                    <div class="text text-white">
+                        <h6 class="fs-4 fw-bold">Disco Machines</h6>
+                        <p class="fs-5"><img src="images/Avatar (1).png" alt="" class="me-2">BeKind2Robots</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- artists -->
+
+    <section class="artists m-4 m-sm-5">
+        <div class="creators">
+            <div class="row">
+                <div class="col-lg-9 col-md-8">
+                    <div>
+                        <h3 class="fs-1 text-white fw-bold lh-sm">Top creators</h3>
+                        <p class="fs-5 text-light lh-base">Checkout Top Rated Creators on the NFT Marketplace</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 d-none d-md-flex align-items-center justify-content-end">
+                    <a href="ranking.html"><button class="text-white form-control-lg fs-6 fw-bold "><i
+                                class="fa-solid fa-rocket me-2"></i>View
+                            Rankings</button></a>
+                </div>
+            </div>
+
+            <!-- row 1 -->
+
+            <div class="row anime py-3 ">
+                <div class="col-lg-3 col-md-6  col-sm-12 col-12 mb-3">
+                    <div class="card position-relative" style=" padding: 1rem;">
+                        <span
+                            class="badge bg-dark rounded-circle fs-5 text-secondary fw-normal ms-md-2 ms-sm-2 z-2 position-absolute">1</span>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-lg-10 col-md-4 col-sm-3 col-5 z-1 ">
+                                <img src="images/1.png" class="card-img-top text-center
+                                mx-auto" alt="...">
+                            </div>
+                            <div class="col-lg-12 col-md-7 col-sm-8 col-7 z-0">
+                                <div class="card-body text-lg-center text-md-start">
+                                    <h5 class="card-title text-white fw-bold fs-5  ">Keepitreal</h5>
+                                    <p class="card-text text-secondary">Total Sales: <span class="text-white">34.53
+                                            ETH</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6  col-sm-12 col-12 mb-3">
+                    <div class="card position-relative" style=" padding: 1rem;">
+                        <span
+                            class="badge bg-dark rounded-circle fs-5 text-secondary fw-normal ms-md-2 ms-sm-2 z-2 position-absolute">2</span>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-lg-10 col-md-4 col-sm-3 col-5 z-1">
+                                <img src="images/2.png" class="card-img-top text-center
+                                mx-auto" alt="...">
+                            </div>
+                            <div class="col-lg-12 col-md-7 col-sm-8 col-7">
+                                <div class="card-body text-lg-center text-md-start">
+                                    <h5 class="card-title text-white fw-bold fs-5">DigiLab</h5>
+                                    <p class="card-text text-secondary">Total Sales: <span class="text-white">34.53
+                                            ETH</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6  col-sm-12 col-12 mb-3">
+                    <div class="card position-relative" style=" padding: 1rem;">
+                        <span
+                            class="badge bg-dark rounded-circle fs-5 text-secondary fw-normal ms-md-2 ms-sm-2 z-2 position-absolute">3</span>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-lg-10 col-md-4 col-sm-3 col-5 z-1">
+                                <img src="images/3.png" class="card-img-top text-center
+                                mx-auto" alt="...">
+                            </div>
+                            <div class="col-lg-12 col-md-7 col-sm-8 col-7 p-0">
+                                <div class="card-body text-lg-center text-md-start">
+                                    <h5 class="card-title text-white fw-bold fs-5">GravityOne</h5>
+                                    <p class="card-text text-secondary">Total Sales: <span class="text-white">34.53
+                                            ETH</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-3 col-md-6  col-sm-12 col-12 mb-3">
+                    <div class="card position-relative" style=" padding: 1rem;">
+                        <span
+                            class="badge bg-dark rounded-circle fs-5 text-secondary fw-normal ms-md-2 ms-sm-2 z-2 position-absolute">4</span>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-lg-10 col-md-4 col-sm-3 col-5 z-1">
+                                <img src="images/4.png" class="card-img-top text-center
+                                mx-auto" alt="...">
+                            </div>
+                            <div class="col-lg-12 col-md-7 col-sm-8 col-7">
+                                <div class="card-body text-lg-center text-md-start">
+                                    <h5 class="card-title text-white fw-bold fs-5">Juanie</h5>
+                                    <p class="card-text text-secondary">Total Sales: <span class="text-white">34.53
+                                            ETH</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- row 2 -->
+
+                <div class="col-lg-3 col-md-6  col-sm-12 col-12 mb-3">
+                    <div class="card position-relative" style=" padding: 1rem;">
+                        <span
+                            class="badge bg-dark rounded-circle fs-5 text-secondary fw-normal ms-md-2 ms-sm-2 z-2 position-absolute">5</span>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-lg-10 col-md-4 col-sm-3 col-5 z-1">
+                                <img src="images/5.png" class="card-img-top text-center
+                                mx-auto" alt="...">
+                            </div>
+                            <div class="col-lg-12 col-md-7 col-sm-8 col-7 p-0">
+                                <div class="card-body text-lg-center text-md-start">
+                                    <h5 class="card-title text-white fw-bold fs-5">BlueWhale</h5>
+                                    <p class="card-text text-secondary">Total Sales: <span class="text-white">34.53
+                                            ETH</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6  col-sm-12 col-12 mb-3 d-lg-block d-md-block d-sm-none d-none">
+                    <div class="card position-relative" style=" padding: 1rem;">
+                        <span
+                            class="badge bg-dark rounded-circle fs-5 text-secondary fw-normal ms-md-2 ms-sm-2 z-2 position-absolute">6</span>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-lg-10 col-md-4 col-sm-3 col-3 z-1">
+                                <img src="images/6.png" class="card-img-top text-center
+                                mx-auto" alt="...">
+                            </div>
+                            <div class="col-lg-12 col-md-7 col-sm-8 col-8 z-0">
+                                <div class="card-body text-lg-center text-md-start">
+                                    <h5 class="card-title text-white fw-bold fs-5">mr fox</h5>
+                                    <p class="card-text text-secondary">Total Sales: <span class="text-white">34.53
+                                            ETH</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-6  col-sm-12 col-12 mb-3 d-lg-block d-md-none d-sm-none d-none">
+                    <div class="card position-relative" style=" padding: 1rem;">
+                        <span
+                            class="badge bg-dark rounded-circle fs-5 text-secondary fw-normal ms-md-2 ms-sm-2 z-2 position-absolute">7</span>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-lg-10 col-md-4 col-sm-3 col-3 z-1">
+                                <img src="images/7.png" class="card-img-top text-center
+                                mx-auto" alt="...">
+                            </div>
+                            <div class="col-lg-12 col-md-7 col-sm-8 col-8 z-0">
+                                <div class="card-body text-lg-center text-md-start">
+                                    <h5 class="card-title text-white fw-bold fs-5">Shroomie</h5>
+                                    <p class="card-text text-secondary">Total Sales: <span class="text-white">34.53
+                                            ETH</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6  col-sm-12 col-12 mb-3 d-lg-block d-md-none d-sm-none d-none">
+                    <div class="card position-relative" style=" padding: 1rem;">
+                        <span
+                            class="badge bg-dark rounded-circle fs-5 text-secondary fw-normal ms-md-2 ms-sm-2 z-2 position-absolute">8</span>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-lg-10 col-md-4 col-sm-3 col-3 z-1">
+                                <img src="images/8.png" class="card-img-top text-center
+                                mx-auto" alt="...">
+                            </div>
+                            <div class="col-lg-12 col-md-7 col-sm-8 col-8 z-0">
+                                <div class="card-body text-lg-center text-md-start">
+                                    <h5 class="card-title text-white fw-bold fs-5">robotica</h5>
+                                    <p class="card-text text-secondary">Total Sales: <span class="text-white">34.53
+                                            ETH</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- row 3 -->
+
+                <div class="col-lg-3 col-md-6  col-sm-12 col-12 mb-3 d-lg-block d-md-none d-sm-none d-none">
+                    <div class="card position-relative" style=" padding: 1rem;">
+                        <span
+                            class="badge bg-dark rounded-circle fs-5 text-secondary fw-normal ms-md-2 ms-sm-2 z-2 position-absolute">9</span>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-lg-10 col-md-4 col-sm-3 col-3 z-1">
+                                <img src="images/9.png" class="card-img-top text-center
+                                mx-auto" alt="...">
+                            </div>
+                            <div class="col-lg-12 col-md-7 col-sm-8 col-8 z-0">
+                                <div class="card-body text-lg-center text-md-start">
+                                    <h5 class="card-title text-white fw-bold fs-5">RustyRobot</h5>
+                                    <p class="card-text text-secondary">Total Sales: <span class="text-white">34.53
+                                            ETH</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6  col-sm-12 col-12 mb-3 d-lg-block d-md-none d-sm-none d-none">
+                    <div class="card position-relative" style=" padding: 1rem;">
+                        <span
+                            class="badge bg-dark rounded-circle fs-5 text-secondary fw-normal ms-md-2 ms-sm-2 z-2 position-absolute">10</span>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-lg-10 col-md-4 col-sm-3 col-3 z-1">
+                                <img src="images/10.png" class="card-img-top text-center
+                                mx-auto" alt="...">
+                            </div>
+                            <div class="col-lg-12 col-md-7 col-sm-8 col-8 z-0">
+                                <div class="card-body text-lg-center text-md-start">
+                                    <h5 class="card-title text-white fw-bold fs-5">animakid</h5>
+                                    <p class="card-text text-secondary">Total Sales: <span class="text-white">34.53
+                                            ETH</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6  col-sm-12 col-12 mb-3 d-lg-block d-md-none d-sm-none d-none">
+                    <div class="card position-relative" style=" padding: 1rem;">
+                        <span
+                            class="badge bg-dark rounded-circle fs-5 text-secondary fw-normal ms-md-2 ms-sm-2 z-2 position-absolute">11</span>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-lg-10 col-md-4 col-sm-3 col-3 z-1">
+                                <img src="images/11.png" class="card-img-top text-center
+                                mx-auto" alt="...">
+                            </div>
+                            <div class="col-lg-12 col-md-7 col-sm-8 col-8 z-0">
+                                <div class="card-body text-lg-center text-md-start">
+                                    <h5 class="card-title text-white fw-bold fs-5">animakid</h5>
+                                    <p class="card-text text-secondary">Total Sales: <span class="text-white">34.53
+                                            ETH</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6  col-sm-12 col-12 mb-3 d-lg-block d-md-none d-sm-none d-none">
+                    <div class="card position-relative" style=" padding: 1rem;">
+                        <span
+                            class="badge bg-dark rounded-circle fs-5 text-secondary fw-normal ms-md-2 ms-sm-2 z-2 position-absolute">12</span>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-lg-10 col-md-4 col-sm-3 col-3 z-1">
+                                <img src="images/12.png" class="card-img-top text-center
+                                mx-auto" alt="...">
+                            </div>
+                            <div class="col-lg-12 col-md-7 col-sm-8 col-8 z-0">
+                                <div class="card-body text-lg-center text-md-start">
+                                    <h5 class="card-title text-white fw-bold fs-5">Ghiblier</h5>
+                                    <p class="card-text text-secondary">Total Sales: <span class="text-white">34.53
+                                            ETH</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center d-block d-md-none mb-5">
+                <a href="ranking.html"><button class="text-white form-control-lg fs-6 fw-bold w-100"><i
+                            class="fa-solid fa-rocket me-2"></i>View
+                        Rankings</button></a>
+            </div>
+    </section>
+
+    <!-- category -->
+
+    <section class="category m-4 m-sm-5">
+        <div class="row ">
+            <h3 class="fs-1 text-white fw-bold lh-sm">Browse Categories</h3>
+        </div>
+        <!-- row 1 -->
+        <div class="row my-1">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12 my-3">
+                <div class="card mx-auto">
+                    <img src="images/Category Icon.png" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-white fw-bold">Arts</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12 my-3">
+                <div class="card mx-auto">
+                    <img src="images/Category Icon (1).png" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-white fw-bold">Collectibles</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12 my-3">
+                <div class="card mx-auto">
+                    <img src="images/Category Icon (2).png" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-white fw-bold">Music</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12 my-3">
+                <div class="card mx-auto">
+                    <img src="images/Photo & Icon.png" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-white fw-bold">Photography</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- row2 -->
+
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6 my-3">
+                <div class="card mx-auto">
+                    <img src="images/Photo & Icon (1).png" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-white fw-bold">Video</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 my-3">
+                <div class="card mx-auto">
+                    <img src="images/Category Icon (3).png" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-white fw-bold">Utility</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 my-3">
+                <div class="card mx-auto">
+                    <img src="images/Category Icon (4).png" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-white fw-bold">Sport</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 my-3">
+                <div class="card mx-auto">
+                    <img src="images/Photo & Icon (2).png" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-white fw-bold">Virtual Worlds</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- discover more -->
+
+    <section class="discover m-4 m-sm-5">
+        <div class="more">
+            <div class="row">
+                <div class="col-lg-9 col-md-8">
+                    <div>
+                        <h3 class="fs-1 text-white fw-bold lh-sm">Discover More NFTs</h3>
+                        <p class="fs-5 text-white lh-base">Explore new trending NFTs</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 d-none d-md-flex align-items-center justify-content-end">
+                    <a href="nft.html" class="text-decoration-none"><button
+                            class="text-white fw-bold form-control-lg fs-6 d-none d-sm-none d-md-block d-lg-block px-5"><i
+                                class="eye fa-regular fa-eye me-2"></i>See All</button></a>
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-center">
+
+                <div class="col-lg-4 col-md-6  col-12 mb-3">
+                    <div class="card mx-auto">
+                        <img src="images/Image Placeholder (4).png" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="card-title text-white fw-bold">Space Walking</h5>
+                            <p class="card-text text-white"><img src="images/Avatar.png" class="me-2">Animakid</p>
+
+                            <div class="row">
+                                <p class="price col-lg-6 col-md-6 col-sm-6 col-6 ">Price <br><span
+                                        class="text-white fs-6">1.63 ETH</span></p>
+                                <p class="price col-lg-6 col-md-6  col-sm-6 col-6 text-end">Highest Bid <br><span
+                                        class="text-white fs-6">0.33
+                                        wETH</span></p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6  col-12 mb-3">
+                    <div class="card mx-auto">
+                        <img src="images/Image Placeholder (1).png" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="card-title text-white fw-bold">Space Walking</h5>
+                            <p class="card-text text-white"><img src="images/Avatar.png" class="me-2">Animakid</p>
+
+                            <div class="row">
+                                <p class="price col-lg-6 col-md-6 col-sm-6 col-6">Price <br><span
+                                        class="text-white fs-6">1.63 ETH</span></p>
+                                <p class="price col-lg-6 col-md-6 col-sm-6 col-6 text-end">Highest Bid <br><span
+                                        class="text-white fs-6">0.33
+                                        wETH</span></p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6  col-12 d-lg-inline d-md-none">
+                    <div class="card mx-auto">
+                        <img src="images/Image Placeholder (2).png" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="card-title text-white fw-bold">Space Walking</h5>
+                            <p class="card-text text-white"><img src="images/Avatar.png" class="me-2">Animakid</p>
+
+                            <div class="row">
+                                <p class="price col-lg-6 col-md-6 col-md-6 col-sm-6 col-6">Price <br><span
+                                        class="text-white fs-6">1.63
+                                        ETH</span></p>
+                                <p class="price col-lg-6 col-md-6 col-md-6 col-sm-6 col-6 text-end">Highest Bid <br>
+                                    <span class="text-white fs-6">0.33 wETH</span>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-block d-sm-block d-md-none d-lg-none text-center mt-3">
+            <a href="nft.html"><button class="text-white fw-bold form-control-lg fs-6 w-100"><i
+                        class="eye fa-regular fa-eye me-2"></i>See All</button></a>
+        </div>
+    </section>
+
+    <!-- NFTs -->
+    <section class="my-5">
+        <div class="main-image">
+            <div class="background">
+                <div class="row g-0">
+                    <div class="left-div col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="col-l2 ps-5 py-sm-5 py-3">
+                            <div class="text">
+                                <label for="text"
+                                    class=" bg-secondary fs-5 form-control-lg rounded-pill mb-3 text-white"><img
+                                        src="images/Asset 12 2.png"> Shroomie</label>
+                                <h3 class="fw-bold display-4 text-white mb-4">Magic Mashrooms</h3>
+                                <div class="d-lg-block d-md-block d-sm-none d-none">
+                                    <a href="nft.html"><button class="form-control-lg py-2 px-5 bg-white"><i
+                                                class="eye fa-regular fa-eye me-2"></i>See
+                                            NFT</button></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 pt-3 pt-md-5">
+                        <div class="col-lg-7 col-md-8 col-sm-10 col-10 mx-auto">
+                            <div class="timer p-5 my-3">
+                                <div class="text text-white fs-5 fw-bold">
+                                    <p>Auction ends in:</p>
+                                </div>
+                                <div class="row text-center">
+                                    <div class="col-3">
+                                        <div class="text text-white fs-2 fw-bold">59</div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div class="text text-white fs-2 fw-bold">:</div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="text text-white fs-2 fw-bold">59</div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div class="text text-white fs-2 fw-bold">:</div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="text text-white fs-2 fw-bold">59</div>
+                                    </div>
+                                </div>
+
+                                <div class="row text-center">
+                                    <div class="col-3">
+                                        <div class="text text-white fs-7">hours</div>
+                                    </div>
+                                    <div class="col-1"></div>
+                                    <div class="col-3">
+                                        <div class="text text-white fs-6">minutes</div>
+                                    </div>
+                                    <div class="col-1"></div>
+                                    <div class="col-3">
+                                        <div class="text text-white fs-6">seconds</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-lg-none d-md-none d-sm-block d-block text-center mt-4">
+                        <a href="nft.html"><button class="form-control-lg py-3 px-5 w-75"><i
+                                    class="eye fa-regular fa-eye me-2"></i>See
+                                NFT</button></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it works -->
+
+    <section class="works m-4 m-sm-5">
+        <div class="wallet">
+            <div class="row mb-3">
+                <div class="text">
+                    <h3 class="fs-1 text-white fw-bold lh-sm">How it works</h3>
+                    <p class="fs-5 text-white lh-base">Find out how to get started</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-12 mb-3">
+                    <div
+                        class="card d-flex flex-lg-column flex-md-column flex-sm-row flex-row align-items-center text-center h-100">
+                        <div class="col-md-12 col-4">
+                            <img src="images/Icon.png" class="card-img-top">
+                        </div>
+
+                        <div class="card-body text-white">
+                            <h6 class="fw-bold fs-4">Start Earning</h6>
+                            <p class="card-text">Set up your wallet of choice. Connect it to the Animarket by clicking
+                                the wallet icon in the top right corner.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12 mb-3">
+                    <div
+                        class="card d-flex flex-lg-column flex-md-column flex-sm-row flex-row align-items-center text-center h-100">
+                        <div class="col-lg-12 col-md-12 col-sm-4 col-4">
+                            <img src="images/Icon.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body text-white">
+                            <h6 class="fw-bold fs-4">Create Collection</h6>
+                            <p class="card-text">Upload your work and setup your collection. Add a description, social
+                                links and floor price.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12 mb-3">
+                    <div
+                        class="card d-flex flex-lg-column flex-md-column flex-sm-row flex-row align-items-center text-center h-100">
+                        <div class="col-lg-12 col-md-12 col-sm-4 col-4">
+                            <img src="images/Icon.png" class="card-img-top" alt="...">
+                        </div>
+
+                        <div class="card-body text-white">
+                            <h6 class="fw-bold fs-4">Setup Your wallet</h6>
+                            <p class="card-text">Choose between auctions and fixed-price listings. Start earning by
+                                selling your NFTs or trading others.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- weekly digest -->
+
+    <section class="m-4 m-sm-5">
+
+        <div class="updates m-2">
+
+            <div class="row p-4 p-md-5">
+                <div class="col-lg-6 col-md-6">
+                    <div class="mb-4 mb-sm-0">
+                        <img src="images/Photo.png" alt="" class="w-100 h-auto">
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 my-auto">
+                    <div>
+                        <h1 class="text-white fw-bold display-3 lh-sm">Join our weekly digest</h1>
+                        <p class="text-white fs-5 fw-normal">Get exclusive promotions & updates straight to your inbox.
+                        </p>
+                    </div>
+
+                    <div class="email">
+                        <input type="email" placeholder="Enter Your Email here" class="form-control-lg">
+                        <button type="submit" class="form-control-lg">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="row m-5 border-bottom  border-secondary">
+            <div class="col-lg-5 col-md-12 my-4">
+                <a class="navbar-brand lh-lg text-white" href="#">
+                    <i class="fa-solid fa-store me-2"></i>NFT Marketplace
+                </a>
+                <p class="lh-lg">NFT marketplace UI created with Anima for Figma.</p>
+                <p class="lh-lg">Join our community</p>
+
+                <div class="row lh-lg">
+                    <div class="col-2 col-sm-1 fs-4 text-secondary">
+                        <i class="fa-brands fa-discord"></i>
+                    </div>
+                    <div class="col-2 col-sm-1 fs-4 text-secondary">
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                    <div class="col-2 col-sm-1 fs-4 text-secondary">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="col-2 col-sm-1 fs-4 text-secondary">
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-3 col-md-12 my-4 text-start">
+                <h3 class="text-white">Explore</h3>
+                <div class="flex-column lh-lg ms-sm-0">
+                    <li><a href="">Marketplace</a></li>
+                    <li><a href="">Rankings</a></li>
+                    <li><a href="">Connect a wallet</a></li>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 my-4">
+                <h3 class="text-white">Join our weekly digest</h3>
+                <p class="lh-lg">Get exclusive promotions & updates straight to your inbox.</p>
+
+                <div class="email">
+                    <input type="email" placeholder="Enter Your Email here" class="form-control-lg">
+                    <button type="submit" class="form-control-lg">Subscribe</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="row pb-3 ps-5 g-0">
+            <p>Ⓒ NFT Market. Use this template freely.</p>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

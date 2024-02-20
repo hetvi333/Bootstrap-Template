@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!--bootstrap links  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- css links -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- navbar section -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-2 mx-sm-5" href="index.html">
+          <i class="fa-solid fa-store me-2"></i>NFT Marketplace
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse me-5" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a aria-current="page" href="index.html">Home</a>
+            <a href="marketplace.html">Marketplace</a>
+            <a href="ranking.html">Ranking</a>
+            <a href="connect-wallet.html">Connect a wallet</a>
+          </div>
+
+          <a href="signup.html" class="btn text-white fw-bold"
+            ><i class="fa-regular fa-user me-2"></i>Sign Up</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- search browser -->
+
+    <div class="m-sm-5 m-4">
+      <h1 class="text-white fw-bold">Browse Marketplace</h1>
+      <p class="text-white">
+        Browse through more than 50k NFTs on the NFT Marketplace.
+      </p>
+      <div class="row">
+        <div class="col-lg-10">
+          <button
+            class="search form-control d-flex justify-content-between text-secondary border-secondary"
+          >
+            Search your favourite NFTs
+            <i
+              class="fa-solid fa-magnifying-glass align-self-center text-white"
+            ></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <hr class="m-2" />
+
+    <div>
+      <div class="row text-center g-0">
+        <div class="col-6">
+          <div
+            class="text text-white fw-bold border-2 border-bottom text-center w-75 mx-auto"
+          >
+            NFTs<span class="badge rounded-pill bg-secondary ms-2 d-md-inline-block d-none"
+              >302</span
+            >
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="text text-muted fw-bold">
+            Collection<span
+              class="badge rounded-pill ms-2 d-md-inline-block d-none"
+              style="background-color: #3b3b3b"
+              >67</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- collection section -->
+
+    <div
+      class="row marketing d-lg-flex d-md-flex d-sm-flex d-flex justify-content-center g-0"
+    >
+      <!-- row 1 -->
+      <div class="row my-3 p-sm-5 justify-content-center">
+        <div class="col-lg-4 col-md-6  col-12 mb-3 mt-3 mt-md-0">
+          <div class="card mx-auto">
+            <img src="images/Image Placeholder1-mkt.png" alt="..." />
+
+            <div class="card-body">
+              <h5 class="card-title text-white fw-bold">Magic Mushroom 0325</h5>
+              <p class="card-text text-white">
+                <img src="images/Avatar.png" class="me-2" />Animakid
+              </p>
+
+              <div class="row">
+                <p class="col-lg-6 col-md-6 col-sm-6 col-6 text-secondary fs-7">
+                  Price <br /><span class="text-white fs-5">1.63 ETH</span>
+                </p>
+                <p
+                  class="col-lg-6 col-md-6 col-sm-6 col-6 text-end text-secondary fs-7"
+                >
+                  Highest Bid <br /><span class="text-white fs-5"
+                    >0.33 wETH</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6  col-12 mb-3">
+          <div class="card mx-auto">
+            <img src="images/Image Placeholder2-mkt.png" alt="..." />
+
+            <div class="card-body">
+              <h5 class="card-title text-white fw-bold">Space Walking</h5>
+              <p class="card-text text-white">
+                <img src="images/Avatar.png" class="me-2" />Animakid
+              </p>
+
+              <div class="row">
+                <p class="col-lg-6 col-md-6 col-sm-6 col-6 text-secondary fs-7">
+                  Price <br /><span class="text-white fs-5">1.63 ETH</span>
+                </p>
+                <p
+                  class="col-lg-6 col-md-6 col-sm-6 col-6 text-end text-secondary fs-7"
+                >
+                  Highest Bid <br /><span class="text-white fs-5"
+                    >0.33 wETH</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6  col-12 mb-3">
+          <div class="card mx-auto">
+            <img src="images/Image Placeholder3-mkt.png" alt="..." />
+
+            <div class="card-body">
+              <h5 class="card-title text-white fw-bold">Space Walking</h5>
+              <p class="card-text text-white">
+                <img src="images/Avatar.png" class="me-2" />Animakid
+              </p>
+
+              <div class="row">
+                <p
+                  class="col-lg-6 col-md-6 col-md-6 col-sm-6 col-6 text-secondary fs-7"
+                >
+                  Price <br /><span class="text-white fs-5">1.63 ETH</span>
+                </p>
+                <p
+                  class="col-lg-6 col-md-6 col-md-6 col-sm-6 col-6 text-end text-secondary fs-7"
+                >
+                  Highest Bid <br />
+                  <span class="text-white fs-5">0.33 wETH</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- row 2 -->
+
+        <div class="col-lg-4 col-md-6  col-12 mb-3">
+          <div class="card mx-auto">
+            <img src="images/Image Placeholder4-mkt.png" alt="..." />
+
+            <div class="card-body">
+              <h5 class="card-title text-white fw-bold">Space Walking</h5>
+              <p class="card-text text-white">
+                <img src="images/Avatar.png" class="me-2" />Animakid
+              </p>
+
+              <div class="row">
+                <p class="col-lg-6 col-md-6 col-sm-6 col-6 text-secondary fs-7">
+                  Price <br /><span class="text-white fs-5">1.63 ETH</span>
+                </p>
+                <p
+                  class="col-lg-6 col-md-6 col-sm-6 col-6 text-end text-secondary fs-7"
+                >
+                  Highest Bid <br /><span class="text-white fs-5"
+                    >0.33 wETH</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6  col-12 mb-3">
+          <div class="card mx-auto">
+            <img src="images/Image Placeholder5-mkt.png" alt="..." />
+
+            <div class="card-body">
+              <h5 class="card-title text-white fw-bold">Colorful Dog 0356</h5>
+              <p class="card-text text-white">
+                <img src="images/Avatar.png" class="me-2" />Keepitreal
+              </p>
+
+              <div class="row">
+                <p class="col-lg-6 col-md-6 col-sm-6 col-6 text-secondary fs-7">
+                  Price <br /><span class="text-white fs-5">1.63 ETH</span>
+                </p>
+                <p
+                  class="col-lg-6 col-md-6 col-sm-6 col-6 text-end text-secondary fs-7"
+                >
+                  Highest Bid <br /><span class="text-white fs-5"
+                    >0.33 wETH</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-lg-4 col-md-6 col-sm-9 col-9 mb-3 d-lg-inline d-md-inline d-sm-none d-none"
+        >
+          <div class="card mx-auto">
+            <img src="images/Image Placeholder6-mkt.png" alt="..." />
+
+            <div class="card-body">
+              <h5 class="card-title text-white fw-bold">Dancing Robot 0312</h5>
+              <p class="card-text text-white">
+                <img src="images/Avatar.png" class="me-2" />Robotica
+              </p>
+
+              <div class="row">
+                <p
+                  class="col-lg-6 col-md-6 col-md-6 col-sm-6 col-6 text-secondary fs-7"
+                >
+                  Price <br /><span class="text-white fs-5">1.63 ETH</span>
+                </p>
+                <p
+                  class="col-lg-6 col-md-6 col-md-6 col-sm-6 col-6 text-end text-secondary fs-7"
+                >
+                  Highest Bid <br />
+                  <span class="text-white fs-5">0.33 wETH</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- row 3 -->
+
+        <div
+          class="col-lg-4 col-md-6 col-sm-12 col-12 mb-3 d-lg-inline d-md-inline d-sm-none d-none"
+        >
+          <div class="card mx-auto">
+            <img src="images/Image Placeholder7-mkt.png" alt="..." />
+
+            <div class="card-body">
+              <h5 class="card-title text-white fw-bold">
+                Cherry Blossom Girl 035
+              </h5>
+              <p class="card-text text-white">
+                <img src="images/Avatar.png" class="me-2" />MoonDancer
+              </p>
+
+              <div class="row">
+                <p class="col-lg-6 col-md-6 col-sm-6 col-6 text-secondary fs-7">
+                  Price <br /><span class="text-white fs-5">1.63 ETH</span>
+                </p>
+                <p
+                  class="col-lg-6 col-md-6 col-sm-6 col-6 text-end text-secondary fs-7"
+                >
+                  Highest Bid <br /><span class="text-white fs-5"
+                    >0.33 wETH</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-lg-4 col-md-6 col-sm-12 col-12 d-lg-inline d-md-inline d-sm-none d-none"
+        >
+          <div class="card mx-auto">
+            <img src="images/Image Placeholder8-mkt.png" alt="..." />
+
+            <div class="card-body">
+              <h5 class="card-title text-white fw-bold">Space Travel</h5>
+              <p class="card-text text-white">
+                <img src="images/Avatar.png" class="me-2" />NebulaKid
+              </p>
+
+              <div class="row">
+                <p class="col-lg-6 col-md-6 col-sm-6 col-6 text-secondary fs-7">
+                  Price <br /><span class="text-white fs-5">1.63 ETH</span>
+                </p>
+                <p
+                  class="col-lg-6 col-md-6 col-sm-6 col-6 text-end text-secondary fs-7"
+                >
+                  Highest Bid <br /><span class="text-white fs-5"
+                    >0.33 wETH</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-lg-4 col-md-6 col-sm-12 col-12 d-lg-inline d-md-none d-sm-none d-none"
+        >
+          <div class="card mx-auto">
+            <img src="images/Image Placeholder9-mkt.png" alt="..." />
+
+            <div class="card-body">
+              <h5 class="card-title text-white fw-bold">Sunset Dimension</h5>
+              <p class="card-text text-white">
+                <img src="images/Avatar.png" class="me-2" />Animakid
+              </p>
+
+              <div class="row">
+                <p
+                  class="col-lg-6 col-md-6 col-md-6 col-sm-6 col-6 text-secondary fs-7"
+                >
+                  Price <br /><span class="text-white fs-5">1.63 ETH</span>
+                </p>
+                <p
+                  class="col-lg-6 col-md-6 col-md-6 col-sm-6 col-6 text-end text-secondary fs-7"
+                >
+                  Highest Bid <br />
+                  <span class="text-white fs-5">0.33 wETH</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- row 4 -->
+
+        <div
+          class="col-lg-4 col-md-6 col-sm-12 col-12 d-lg-inline d-md-none d-sm-none d-none"
+        >
+          <div class="card mx-auto">
+            <img src="images/Image Placeholder10-mkt.png" alt="..." />
+
+            <div class="card-body">
+              <h5 class="card-title text-white fw-bold">Desert Walk</h5>
+              <p class="card-text text-white">
+                <img src="images/Avatar.png" class="me-2" />Catch 22
+              </p>
+
+              <div class="row">
+                <p
+                  class="col-lg-6 col-md-6 col-md-6 col-sm-6 col-6 text-secondary fs-7"
+                >
+                  Price <br /><span class="text-white fs-5">1.63 ETH</span>
+                </p>
+                <p
+                  class="col-lg-6 col-md-6 col-md-6 col-sm-6 col-6 text-end text-secondary fs-7"
+                >
+                  Highest Bid <br />
+                  <span class="text-white fs-5">0.33 wETH</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-lg-4 col-md-6 col-sm-12 col-12 d-lg-inline d-md-none d-sm-none d-none"
+        >
+          <div class="card mx-auto">
+            <img src="images/Image Placeholder11-mkt.png" alt="..." />
+
+            <div class="card-body">
+              <h5 class="card-title text-white fw-bold">IceCream Ape 0324</h5>
+              <p class="card-text text-white">
+                <img src="images/Avatar.png" class="me-2" />Ice Ape Club
+              </p>
+
+              <div class="row">
+                <p
+                  class="col-lg-6 col-md-6 col-md-6 col-sm-6 col-6 text-secondary fs-7"
+                >
+                  Price <br /><span class="text-white fs-5">1.63 ETH</span>
+                </p>
+                <p
+                  class="col-lg-6 col-md-6 col-md-6 col-sm-6 col-6 text-end text-secondary fs-7"
+                >
+                  Highest Bid <br />
+                  <span class="text-white fs-5">0.33 wETH</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-lg-4 col-md-6 col-sm-12 col-12 d-lg-inline d-md-none d-sm-none d-none"
+        >
+          <div class="card mx-auto">
+            <img src="images/Image Placeholder12-mkt.png" alt="..." />
+
+            <div class="card-body">
+              <h5 class="card-title text-white fw-bold">Colorful Dog 0344</h5>
+              <p class="card-text text-white">
+                <img src="images/Avatar.png" class="me-2" />PuppyPower
+              </p>
+
+              <div class="row">
+                <p
+                  class="col-lg-6 col-md-6 col-md-6 col-sm-6 col-6 text-secondary fs-7"
+                >
+                  Price <br /><span class="text-white fs-5">1.63 ETH</span>
+                </p>
+                <p
+                  class="col-lg-6 col-md-6 col-md-6 col-sm-6 col-6 text-end text-secondary fs-7"
+                >
+                  Highest Bid <br />
+                  <span class="text-white fs-5">0.33 wETH</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="row p-5 g-0 border-bottom border-secondary mt-1">
+        <div class="col-lg-5 col-md-12 my-4">
+          <a class="navbar-brand lh-lg text-white" href="#">
+            <i class="fa-solid fa-store me-2"></i>NFT Marketplace
+          </a>
+          <p class="lh-lg">NFT marketplace UI created with Anima for Figma.</p>
+          <p class="lh-lg">Join our community</p>
+
+          <div class="row lh-lg">
+            <div class="col-2 col-sm-1 fs-4 text-secondary">
+              <i class="fa-brands fa-discord"></i>
+            </div>
+            <div class="col-2 col-sm-1 fs-4 text-secondary">
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+            <div class="col-2 col-sm-1 fs-4 text-secondary">
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="col-2 col-sm-1 fs-4 text-secondary">
+              <i class="fa-brands fa-square-instagram"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-12 my-4 text-start">
+          <h3 class="text-white">Explore</h3>
+          <div class="flex-column lh-lg ms-sm-0">
+            <li><a href="">Marketplace</a></li>
+            <li><a href="">Rankings</a></li>
+            <li><a href="">Connect a wallet</a></li>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12 my-4">
+          <h3 class="text-white">Join our weekly digest</h3>
+          <p class="lh-lg">
+            Get exclusive promotions & updates straight to your inbox.
+          </p>
+
+          <div class="email">
+            <input
+              type="email"
+              placeholder="Enter Your Email here"
+              class="form-control-lg"
+            />
+            <button type="submit" class="form-control-lg">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <div class="row pb-3 ps-5 g-0">
+        <p>Ⓒ NFT Market. Use this template freely.</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

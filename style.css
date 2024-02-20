@@ -1,0 +1,285 @@
+body {
+  background-color: #2b2b2b;
+  text-decoration: none;
+}
+
+.hero .card,
+.anime .card,
+.category .card,
+.discover .more .card,
+.wallet .card,
+.updates {
+  border-radius: 2rem;
+  border: 1px solid #2b2b2b;
+  background-color: #3b3b3b;
+}
+
+nav .navbar-brand i,
+footer .navbar-brand i,
+.discover i,
+.background i,
+.creators i {
+  color: #a259ff;
+}
+
+nav a {
+  font-size: 15px;
+  margin-left: 3.2rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #a259ff;
+  text-transform: uppercase;
+}
+
+nav a:hover :first-child {
+  text-transform: none;
+}
+
+nav a.btn,
+.hero button {
+  background-color: #a259ff;
+  border-radius: 10px;
+}
+
+/* collection section */
+
+section.collection .text-col {
+  background-color: #a259ff;
+  border-radius: 1rem;
+}
+
+/* artists */
+
+.creators a button,
+.discover button {
+  border-radius: 1rem;
+  border: 1px solid #a259ff;
+  background-color: #2b2b2b;
+}
+
+/* nft */
+
+.main-image {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(136, 26, 183, 1)
+    ),
+    url(images/Screen=Tablet.png) no-repeat;
+  background-size: 100% 100%;
+  object-fit: cover;
+}
+
+.background {
+  padding: 20% 0 5% 0;
+}
+
+.background button {
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.background .timer {
+  background-color: dark;
+  opacity: 0.8;
+}
+
+/* discover more */
+
+section.discover .more .price {
+  color: #858584;
+  font-size: 12px;
+}
+
+/* footer */
+
+footer {
+  background-color: #3b3b3b;
+}
+
+footer .flex-column li a {
+  color: #cccccc;
+  text-decoration: none;
+  line-height: 3rem;
+}
+
+footer .flex-column li {
+  list-style: none;
+}
+
+footer p {
+  color: #cccccc;
+}
+footer ul {
+  padding-left: 0;
+}
+
+.email {
+  position: relative;
+}
+.email input {
+  max-width: 400px;
+  width: 100%;
+  font-size: 1rem;
+  border-radius: 1rem;
+  border: 1px solid #ffffff;
+}
+.email button {
+  position: absolute;
+  transform: translate(-100%, -5%);
+  border: 3px solid #a259ff;
+  border-radius: 1rem;
+  width: 100%;
+  font-size: 1rem;
+  max-width: 150px;
+  background-color: #a259ff;
+  color: white;
+}
+
+@media only screen and (max-width: 470px) {
+  .email button {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    transform: none;
+    margin-top: 1rem;
+  }
+}
+
+/* signup.html */
+.sign-up .create-btn {
+  background-color: #a259ff;
+  border: 2px solid #a259ff;
+  font-size: 1.15rem;
+}
+
+/* connect-wallet.html */
+
+.label input {
+  background-color: #3b3b3b;
+  border: 2px solid #a259ff;
+}
+
+/* artist-page.html */
+
+section.page .links i {
+  color: #858584;
+}
+
+.header-img {
+  position: relative;
+}
+
+.header-img img {
+  display: block;
+}
+
+.header-img .back-img {
+  width: 100%;
+  height: auto;
+}
+
+.header-img .animekid {
+  position: absolute;
+  bottom: -4rem;
+  left: 4rem;
+  height: auto;
+  width: auto;
+}
+
+@media only screen and (max-width: 500px) {
+  .header-img .animekid {
+    height: 100%;
+    width: auto;
+    transform: translate(70%, -12%);
+  }
+}
+
+.creation {
+  background-color: #3b3b3b;
+}
+.creation .card {
+  background-color: #2b2b2b;
+  border-radius: 1.5rem;
+}
+
+section.page .followers .input {
+  background-color: #a259ff;
+  border: 2px solid #a259ff;
+}
+
+section.page .followers .input2 {
+  background-color: #2b2b2b;
+  border: 2px solid #a259ff;
+}
+
+section.page .followers .plus {
+  color: #a259ff;
+}
+
+section.page .creation {
+  background-color: #3b3b3b;
+}
+
+/* NFT.html */
+
+.timer {
+  background-color: #3b3b3b;
+  border-radius: 18px;
+}
+.bid {
+  background-color: #a259ff;
+  border: #a259ff;
+}
+
+.tages button {
+  font-size: 12px;
+}
+
+.goto {
+  background-color: #2b2b2b;
+  border: 2px solid #a259ff;
+  border-radius: 1rem;
+}
+
+i.arrow {
+  color: #a259ff;
+}
+
+.nfts .card {
+  background-color: #3b3b3b;
+  border-radius: 1.5rem;
+}
+
+/* marketplace.html */
+
+button.search,
+.marketing .card {
+  background-color: #2b2b2b;
+}
+
+.marketing {
+  background-color: #3b3b3b;
+}
+
+.marketing .card {
+  border-radius: 1.5rem;
+}
+
+/* ranking */
+
+.index {
+  border: 1px solid #ffffff;
+  border-radius: 0.5rem;
+}
+.ranking {
+  background-color: #3b3b3b;
+  border-radius: 1rem;
+}
+
+.rank {
+  background-color: #2b2b2b;
+}
